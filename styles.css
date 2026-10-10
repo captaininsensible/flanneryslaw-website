@@ -56,3 +56,4 @@ h2 { color: var(--blue); font-size: 2rem; margin-top: 0; }
 .logo-img, .hero-crest { border-radius: 50%; object-fit: cover; display: block; }
 .logo-img { width: 44px; height: 44px; }
 .hero-crest { width: 220px; height: 220px; margin: 0 auto 1.5rem; }
+.headshot { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 62% 20%; border-radius: 8px; border: 1px solid var(--blue); display: block; }

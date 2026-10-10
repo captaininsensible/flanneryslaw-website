@@ -11,7 +11,7 @@ A single-page, mobile-responsive business website for Flannery's Law.
 - **Text**: edit the sections in `index.html` (About, Services, Contact).
 - **Maxim**: edit the `<p class="maxim">` in the hero section.
 - **Email**: replace `info@flanneryslaw.co.uk` in the Contact section.
-- **Photo**: save your headshot as `shane-flannery.jpg` in the repository root (use an image you have permission to use, e.g. from your CJ Law profile), then replace the `photo-placeholder` div in `index.html` with `<img src="shane-flannery.jpg" alt="Shane Flannery">`.
+- **Photo**: the headshot is `headshot.png`. Replace the file to change it (it is cropped to a 4:5 portrait; adjust `object-position` in `.headshot` to reframe).
 - **Logo**: the crest is `logo.jpg` (header, hero and browser tab icon). Replace the file to change it.
 - **Colours**: change the variables in `:root` in `styles.css`.
 
