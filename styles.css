@@ -12,7 +12,7 @@ body { margin: 0; font-family: "Segoe UI", Helvetica, Arial, sans-serif; color: 
 .container { width: min(1100px, 92%); margin: 0 auto; }
 a { color: var(--blue); }
 
-.site-header { position: sticky; top: 0; z-index: 10; background: #000; border-bottom: 1px solid #3a3220; }
+.site-header { position: sticky; top: 0; z-index: 10; background: radial-gradient(ellipse 30% 220% at 4% 50%, #2a2318 0%, #000 100%); border-bottom: 1px solid #3a3220; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 64px; }
 .logo { display: flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--white); font-weight: 600; font-size: 1.2rem; }
 .logo-mark { display: grid; place-items: center; width: 40px; height: 40px; border: 2px solid var(--blue); color: var(--blue); border-radius: 50%; font-family: Georgia, serif; }
@@ -21,7 +21,9 @@ a { color: var(--blue); }
 .nav-toggle { display: none; background: none; border: 0; color: var(--white); font-size: 1.6rem; cursor: pointer; }
 
 .hero h1, .maxim { color: var(--blue); }
-.hero { background: linear-gradient(135deg, #000, #1c1810); color: var(--white); text-align: center; padding: 6rem 0; }
+.hero { background:
+    linear-gradient(115deg, transparent 38%, rgba(255, 233, 170, .06) 48%, transparent 58%),
+    radial-gradient(ellipse 55% 60% at 50% 30%, #3a3020 0%, #1c1810 45%, #000 100%); color: var(--white); text-align: center; padding: 6rem 0; }
 .hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 0 0 1rem; }
 .maxim { font-family: Georgia, serif; font-style: italic; font-size: 1.3rem; max-width: 650px; margin: 0 auto 2rem; }
 .btn { display: inline-block; background: var(--blue); color: #000; padding: .8rem 1.8rem; border-radius: 4px; text-decoration: none; font-weight: 600; }
@@ -57,3 +59,6 @@ h2 { color: var(--blue); font-size: 2rem; margin-top: 0; }
 .logo-img { width: 44px; height: 44px; }
 .hero-crest { width: 220px; height: 220px; margin: 0 auto 1.5rem; }
 .headshot { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 62% 20%; border-radius: 8px; border: 1px solid var(--blue); display: block; }
+
+.hero-crest { box-shadow: 0 0 60px 10px rgba(217, 189, 115, .25), 0 0 14px rgba(217, 189, 115, .35); }
+.logo-img { box-shadow: 0 0 14px rgba(217, 189, 115, .35); }
