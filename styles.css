@@ -21,9 +21,7 @@ a { color: var(--blue); }
 .nav-toggle { display: none; background: none; border: 0; color: var(--white); font-size: 1.6rem; cursor: pointer; }
 
 .hero h1, .maxim { color: var(--blue); }
-.hero { background:
-    linear-gradient(135deg, rgba(255, 233, 170, .10) 0%, transparent 45%),
-    radial-gradient(ellipse 60% 70% at 40% 12%, #4a3d26 0%, #1c1810 50%, #000 100%);
+.hero { background: radial-gradient(ellipse 75% 110% at 30% 0%, #38393b 0%, #232325 30%, #0d0d0d 65%, #020202 100%);
   color: var(--white); text-align: center; padding: 6rem 0; }
 .hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 0 0 1rem; }
 .maxim { font-family: Georgia, serif; font-style: italic; font-size: 1.3rem; max-width: 650px; margin: 0 auto 2rem; }
@@ -61,5 +59,5 @@ h2 { color: var(--blue); font-size: 2rem; margin-top: 0; }
 .hero-crest { width: 220px; height: 220px; margin: 0 auto 1.5rem; }
 .headshot { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 62% 20%; border-radius: 8px; border: 1px solid var(--blue); display: block; }
 
-.hero-crest { box-shadow: -18px -18px 60px 4px rgba(217, 189, 115, .28), 0 0 14px rgba(217, 189, 115, .2); }
+.hero-crest { -webkit-mask-image: radial-gradient(circle, #000 66%, transparent 71%); mask-image: radial-gradient(circle, #000 66%, transparent 71%); }
 .logo-img { box-shadow: 0 0 14px rgba(217, 189, 115, .35); }
