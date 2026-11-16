@@ -22,8 +22,9 @@ a { color: var(--blue); }
 
 .hero h1, .maxim { color: var(--blue); }
 .hero { background:
-    linear-gradient(115deg, transparent 38%, rgba(255, 233, 170, .06) 48%, transparent 58%),
-    radial-gradient(ellipse 55% 60% at 50% 30%, #3a3020 0%, #1c1810 45%, #000 100%); color: var(--white); text-align: center; padding: 6rem 0; }
+    linear-gradient(135deg, rgba(255, 233, 170, .10) 0%, transparent 45%),
+    radial-gradient(ellipse 60% 70% at 40% 12%, #4a3d26 0%, #1c1810 50%, #000 100%);
+  color: var(--white); text-align: center; padding: 6rem 0; }
 .hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 0 0 1rem; }
 .maxim { font-family: Georgia, serif; font-style: italic; font-size: 1.3rem; max-width: 650px; margin: 0 auto 2rem; }
 .btn { display: inline-block; background: var(--blue); color: #000; padding: .8rem 1.8rem; border-radius: 4px; text-decoration: none; font-weight: 600; }
@@ -60,5 +61,5 @@ h2 { color: var(--blue); font-size: 2rem; margin-top: 0; }
 .hero-crest { width: 220px; height: 220px; margin: 0 auto 1.5rem; }
 .headshot { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 62% 20%; border-radius: 8px; border: 1px solid var(--blue); display: block; }
 
-.hero-crest { box-shadow: 0 0 60px 10px rgba(217, 189, 115, .25), 0 0 14px rgba(217, 189, 115, .35); }
+.hero-crest { box-shadow: -18px -18px 60px 4px rgba(217, 189, 115, .28), 0 0 14px rgba(217, 189, 115, .2); }
 .logo-img { box-shadow: 0 0 14px rgba(217, 189, 115, .35); }
