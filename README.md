@@ -9,7 +9,6 @@ A single-page, mobile-responsive business website for Flannery's Law.
 
 ## Customisation
 - **Text**: edit the sections in `index.html` (About, Services, Contact).
-- **Maxim**: edit the `<p class="maxim">` in the hero section.
 - **Email**: replace `info@flanneryslaw.co.uk` in the Contact section.
 - **Photo**: the headshot is `headshot.png`. Replace the file to change it (it is cropped to a 4:5 portrait; adjust `object-position` in `.headshot` to reframe).
 - **Logo**: the crest is `logo.jpg` (header, hero and browser tab icon). Replace the file to change it.
